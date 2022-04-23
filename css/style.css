@@ -1408,7 +1408,7 @@ html::-webkit-scrollbar-thumb{
     list-style: none;
     line-height: 2.3;
     letter-spacing: 0.1rem;
-    transition: all 0.6s ease;
+    transition: all 0.2s ease;
 }
 
 .footer ul a {
