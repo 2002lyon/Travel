@@ -1511,6 +1511,7 @@ html::-webkit-scrollbar-thumb{
     border-bottom-right-radius: 5px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1rem;
+    cursor: pointer;
 }
 
 /* ------------------------newsletter------------------------- */
