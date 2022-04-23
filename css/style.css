@@ -509,6 +509,13 @@ html::-webkit-scrollbar-thumb{
     z-index: 9999;
 }
 
+
+
+.to-top:hover{
+    background-color: #003fa5;
+}
+
+
 .to-top.active {
     bottom: 32px;
     pointer-events: auto;
@@ -1364,3 +1371,212 @@ html::-webkit-scrollbar-thumb{
     bottom: -13px;
     transform: translateX(-50%);
 } */
+
+
+
+/* ------------------footer---------------------------- */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+.footer .footer-box{
+    display: flex;
+    width: 54%;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+}
+
+.footer span{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.footer ul li{
+    list-style: none;
+    line-height: 2.3;
+    letter-spacing: 0.1rem;
+    transition: all 0.6s ease;
+}
+
+.footer ul a {
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-family: 'IBM Plex Serif', serif;
+    position: relative;
+    transition: all 0s ease;
+}
+
+.footer ul a:hover{
+    color: #777;
+}
+
+
+
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-2{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-4{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-5{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.footer-links>.logo{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+.footer-links ul li span{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    line-height: 2.3;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+
+.footer-links ul li{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    line-height: 2.3;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+
+}
+.footer-links ul li a{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    line-height: 2.3;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+}
+
+.footer-links .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.footer-links .icons i{
+
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.footer-links .icons i:hover{
+    color: #777;
+    border: 1px solid #777;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  position: relative;
+}
+
+.footer-bottom::before{
+content: "";
+width: 100%;
+position: absolute;
+height: 1px;
+background-color: gray;
+top: 20%;
+left: 0%;
+}
+
+.footer-bottom ul{
+    display: flex;
+}
+.footer-bottom ul li{
+    padding: 30px 20px;
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+
+
+.footer-bottom ul a li {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.footer-bottom ul li{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+
+.footer-bottom ul a li:hover{
+    color: #777;
+}
+
+
+/* ------------------footer---------------------------- */
