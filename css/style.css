@@ -102,16 +102,8 @@ html::-webkit-scrollbar-thumb{
     padding: 0px 5px;
 }
 
-.header .navbar a::after {
-    background: red;
-    position: absolute;
-    top: 10%;
-    left: 0;
-    width: 100%;
-}
-
 .header .navbar a:hover {
-    color: red;
+    color: rgb(206, 202, 202);
 
 }
 
@@ -196,6 +188,10 @@ html::-webkit-scrollbar-thumb{
 
 .header.sticky a {
     color: black;
+}
+
+.header.sticky a:hover{
+    color: red;
 }
 
 /* --------------------------------------slider----------------------------- */
