@@ -605,10 +605,8 @@ html::-webkit-scrollbar-thumb{
 .package-1 {
 
     width: 31%;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* margin-right: 80px; */
     background-color: rgba(0, 0, 0, 0.03);
     padding-bottom: 30px;
 

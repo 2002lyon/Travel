@@ -798,12 +798,12 @@
             
         }
         
-        .form input{
-            padding-right: 40px;
+        .form input {
+            padding-right: 20px;
             padding-left: 20px;
             height: 5rem;
             font-size: 14px;
-        } 
+        }
 
 
         .form .btn{
@@ -863,7 +863,8 @@
             flex-direction: column;
             flex-wrap: wrap;
             width: 100%;
-           
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
         }
         
         
