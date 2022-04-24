@@ -281,7 +281,7 @@
         }
 
         .header.sticky #menu-btn {
-            color: black;
+            color: #fff;
         }
 
         #menu-btn.fa-times {
@@ -799,19 +799,21 @@
         }
         
         .form input {
-            padding-right: 20px;
-            padding-left: 20px;
+            padding-right: 0px;
+            padding-left: 15px;
             height: 5rem;
+            margin-left: 20px;
             font-size: 14px;
         }
 
 
-        .form .btn{
+        .form .btn {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 5rem;
-            padding: 10px 20px;
+            padding: 10px 10px;
+            margin-right: 20px;
         }
         /* ----------------------------news-letter------------------------- */
 
